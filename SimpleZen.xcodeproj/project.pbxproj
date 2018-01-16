@@ -3,10 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41B0521B200922F20070BB68 /* FavouriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B0521A200922F20070BB68 /* FavouriteController.swift */; };
+		41B052262009261C0070BB68 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B052242009261C0070BB68 /* SWRevealViewController.m */; };
+		5667FC06A1F9E464328ABBF1 /* Pods_SimpleZen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126BBE200FEAE2A5711489AE /* Pods_SimpleZen.framework */; };
+		BC07065F1E7C47F900DEF051 /* QuoteProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC07065E1E7C47F900DEF051 /* QuoteProvider.swift */; };
+		BC0706611E7C5EE200DEF051 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0706601E7C5EE200DEF051 /* ColorModel.swift */; };
+		BC0706641E7C67DC00DEF051 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC0706631E7C67DC00DEF051 /* QuartzCore.framework */; };
+		BC0C6D101F98057200BFDBD8 /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0C6D0F1F98057200BFDBD8 /* CopyLabel.swift */; };
 		BC3B46111E7B3CEB00E64598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B46101E7B3CEB00E64598 /* AppDelegate.swift */; };
 		BC3B46131E7B3CEB00E64598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3B46121E7B3CEB00E64598 /* ViewController.swift */; };
 		BC3B46161E7B3CEB00E64598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3B46141E7B3CEB00E64598 /* Main.storyboard */; };
@@ -14,7 +21,30 @@
 		BC3B461B1E7B3CEB00E64598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3B46191E7B3CEB00E64598 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD7634E2005B76D0051BF1E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		126BBE200FEAE2A5711489AE /* Pods_SimpleZen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleZen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FD064111B724A89C5C550A /* Pods-SimpleZen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleZen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleZen/Pods-SimpleZen.debug.xcconfig"; sourceTree = "<group>"; };
+		41B0521A200922F20070BB68 /* FavouriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteController.swift; sourceTree = "<group>"; };
+		41B052232009261B0070BB68 /* SimpleZen-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleZen-Bridging-Header.h"; sourceTree = "<group>"; };
+		41B052242009261C0070BB68 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		41B052252009261C0070BB68 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		BC07065E1E7C47F900DEF051 /* QuoteProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteProvider.swift; sourceTree = "<group>"; };
+		BC0706601E7C5EE200DEF051 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		BC0706631E7C67DC00DEF051 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC0C6D0F1F98057200BFDBD8 /* CopyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
 		BC3B460D1E7B3CEB00E64598 /* SimpleZen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleZen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3B46101E7B3CEB00E64598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC3B46121E7B3CEB00E64598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +52,7 @@
 		BC3B46171E7B3CEB00E64598 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC3B461A1E7B3CEB00E64598 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC3B461C1E7B3CEB00E64598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8B761CC5151DBE7DF7BC7D /* Pods-SimpleZen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleZen.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleZen/Pods-SimpleZen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +60,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0706641E7C67DC00DEF051 /* QuartzCore.framework in Frameworks */,
+				5667FC06A1F9E464328ABBF1 /* Pods_SimpleZen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41B0521E200925FA0070BB68 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				41B052252009261C0070BB68 /* SWRevealViewController.h */,
+				41B052242009261C0070BB68 /* SWRevealViewController.m */,
+				41B052232009261B0070BB68 /* SimpleZen-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		50FE84061AE2CF093E32A16D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12FD064111B724A89C5C550A /* Pods-SimpleZen.debug.xcconfig */,
+				DD8B761CC5151DBE7DF7BC7D /* Pods-SimpleZen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC0706621E7C67DC00DEF051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0706631E7C67DC00DEF051 /* QuartzCore.framework */,
+				126BBE200FEAE2A5711489AE /* Pods_SimpleZen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC3B46041E7B3CEB00E64598 = {
 			isa = PBXGroup;
 			children = (
 				BC3B460F1E7B3CEB00E64598 /* SimpleZen */,
 				BC3B460E1E7B3CEB00E64598 /* Products */,
+				BC0706621E7C67DC00DEF051 /* Frameworks */,
+				50FE84061AE2CF093E32A16D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +119,15 @@
 			children = (
 				BC3B46101E7B3CEB00E64598 /* AppDelegate.swift */,
 				BC3B46121E7B3CEB00E64598 /* ViewController.swift */,
+				41B0521A200922F20070BB68 /* FavouriteController.swift */,
+				BC0706601E7C5EE200DEF051 /* ColorModel.swift */,
+				BC07065E1E7C47F900DEF051 /* QuoteProvider.swift */,
+				BC0C6D0F1F98057200BFDBD8 /* CopyLabel.swift */,
 				BC3B46141E7B3CEB00E64598 /* Main.storyboard */,
 				BC3B46171E7B3CEB00E64598 /* Assets.xcassets */,
 				BC3B46191E7B3CEB00E64598 /* LaunchScreen.storyboard */,
 				BC3B461C1E7B3CEB00E64598 /* Info.plist */,
+				41B0521E200925FA0070BB68 /* SWRevealViewController */,
 			);
 			path = SimpleZen;
 			sourceTree = "<group>";
@@ -71,9 +139,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC3B461F1E7B3CEB00E64598 /* Build configuration list for PBXNativeTarget "SimpleZen" */;
 			buildPhases = (
+				5B1709952632D479617801DF /* [CP] Check Pods Manifest.lock */,
 				BC3B46091E7B3CEB00E64598 /* Sources */,
 				BC3B460A1E7B3CEB00E64598 /* Frameworks */,
 				BC3B460B1E7B3CEB00E64598 /* Resources */,
+				6BC21DA687E2E643CB248279 /* [CP] Embed Pods Frameworks */,
+				3F317DE266E649D479B952AD /* [CP] Copy Pods Resources */,
+				BCD7634E2005B76D0051BF1E /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -90,19 +162,20 @@
 		BC3B46051E7B3CEB00E64598 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Adam Carter";
 				TargetAttributes = {
 					BC3B460C1E7B3CEB00E64598 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 6DZ7S9UU7D;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = BC3B46081E7B3CEB00E64598 /* Build configuration list for PBXProject "SimpleZen" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -132,13 +205,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F317DE266E649D479B952AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleZen/Pods-SimpleZen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B1709952632D479617801DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleZen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC21DA687E2E643CB248279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleZen/Pods-SimpleZen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC3B46091E7B3CEB00E64598 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41B052262009261C0070BB68 /* SWRevealViewController.m in Sources */,
+				BC07065F1E7C47F900DEF051 /* QuoteProvider.swift in Sources */,
 				BC3B46131E7B3CEB00E64598 /* ViewController.swift in Sources */,
+				BC0C6D101F98057200BFDBD8 /* CopyLabel.swift in Sources */,
+				41B0521B200922F20070BB68 /* FavouriteController.swift in Sources */,
 				BC3B46111E7B3CEB00E64598 /* AppDelegate.swift in Sources */,
+				BC0706611E7C5EE200DEF051 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +302,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -181,7 +312,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -204,12 +339,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -222,7 +358,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -230,7 +368,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -247,37 +389,53 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		BC3B46201E7B3CEB00E64598 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12FD064111B724A89C5C550A /* Pods-SimpleZen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6DZ7S9UU7D;
 				INFOPLIST_FILE = SimpleZen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.adamcarter.SimpleZen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleZen/SWRevealViewController/SimpleZen-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BC3B46211E7B3CEB00E64598 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8B761CC5151DBE7DF7BC7D /* Pods-SimpleZen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 6DZ7S9UU7D;
 				INFOPLIST_FILE = SimpleZen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.adamcarter.SimpleZen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "SimpleZen/SWRevealViewController/SimpleZen-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -300,6 +458,7 @@
 				BC3B46211E7B3CEB00E64598 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
